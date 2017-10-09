@@ -1,0 +1,276 @@
+# Page settings
+#baseurl = "localhost:1313"
+baseurl = "deimosfr.github.io/peace-in-dordogne.com/"
+title = "Peace in Dordogne"
+languageCode = "fr-fr"
+theme = "hugo-elate-theme"
+
+[params]
+
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+  # Navigation
+  [params.navigation]
+    brand = "Peace in Dordogne"
+    home = "Accueil"
+    work = "Activitées"
+    testimonials = "Témoignages"
+    services = "Services"
+    about = "About"
+    contact = "Contact"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "http://gohugo.io"
+      name = "English version"
+      weight = 10
+
+  # Hero section
+  [params.hero]
+    title = "Gite à louer en Dordogne"
+    subtitle = 'Le Gîte est situé dans le Périgord noir, à 1 km de Domme classé dans les plus beaux villages de France, et à 20 minutes de Sarlat la Caneda. Piscine, jardin, barbecue, parking privé sont à votre disposition. Trois chambres; deux avec lits double, un avec 2 lits simple. Salon/cuisine, bien equipé.'
+
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "Plan"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Get In Touch"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "Develop"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Click Me"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "Launch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    url = "#"
+    button = "Why us?"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Regarder une video"
+    icon = "icon-play2"
+    url = "https://vimeo.com/channels/staffpicks/93951774"
+
+
+  # Work section
+  [params.work]
+    enable = true
+    title = "Activitées"
+    description = "Un endroit idéal pour se relaxer et profiter de cette belle région"
+    footertext = "Mais également la visite des grottes, des châteaux, musées, gastronomie, vélos, cours de pilotage à l'aérodrome de Domme..."
+
+    [[params.work.row]]
+      img = "activ_canoe.jpg"
+      alt = "Canoës"
+      title = "Canoës"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "activ_equitation.jpg"
+      alt = "Equitation"
+      title = "Equitation"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "activ_massages.jpg"
+      alt = "Massages"
+      title = "Massages et réflexologie shiatsu"
+      subtitle = "Vôtre hôte se charge de votre bien être"
+
+    [[params.work.row]]
+      img = "activ_mongolfiere.jpg"
+      alt = "Mongolfière"
+      title = "Mongolfière"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "activ_randonnees.jpg"
+      alt = "Randonnées"
+      title = "Randonnées"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "activ_golf.jpg"
+      alt = "Golf"
+      title = "Golf"
+      subtitle = ""
+
+  # Testimonials section
+  [params.testimonials]
+    enable = true
+    title = "Témoignages"
+    description = "Après un séjour chez votre hôte, <a href='https://www.airbnb.fr/rooms/3706430#reviews'>voici leurs impressions</a>"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;L'habitation de Rosemary est très bien située tout près de la commune de Domme, on peut y aller à pied en moins de 1/2 heures. Nous avons apprécié sa piscine qui est très bien entretenu, nous avons profité de la terrasse à tous les repas. Je conseille les massages de Rosemary, un plus ! Rosemary à tout fait pour que nous passions un très bon séjour, merci&rdquo;"
+      person = 'Séverine'
+      img = "feedback_severine.jpg"
+      alt = "Séverine"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;La maison de Rosemary est un havre de paix. Tout est calme, les chambres confortables, deux salles de douche indispensables quand on est 6. Nous venions avec un bébé de 14 mois et Rosemary a tout fait pour que nous puissions voyager léger en nous mettant à disposition une chaise haute et un lit parapluie. La piscine est hyper bien entretenue et ne sens pas le chlore. Rosemary très discrète est toujours là si nous avons besoin de quelque chose. Nous avons quitté à regret cette maison et sa propriétaire qui aura été une belle rencontre. La maison est à 5 mn de Domme en voiture, 20 mn de Sarlat et entre 30 et 45 minutes de nombreux sites touristiques du Périgord Noire.&rdquo;"
+      person = 'Isabelle'
+      img = "feedback_isabelle.jpg"
+      alt = "Isabelle"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Nous avons été très bien accueillis par Rosemary, dans sa maison très agréable, au calme, en pleine campagne tout près de Domme. Le logement est bien équipé, très pratique, la piscine super. La maison est idéalement située pour des excursions vers le principaux sites touristiques de la région. Un petit bonus: séance de réflexologie très bénéfique. Une semaine de vacances en famille très réussie, malgré un ou deux jours de pluie. Merci à Rosemary !&rdquo;"
+      person = 'Antoine'
+      img = "feedback_antoine.jpg"
+      alt = "Person3"
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "Services"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.services.item]]
+      title = "Brand &amp; Strategy"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "Web &amp; Interface"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "Photo &amp; Video"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "CMS &amp; eCommerce"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = false
+    title = "About"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.about.item]]
+      name = "Jean Smith"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person1.jpg"
+      alt = "Person1"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-linkedin", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Rob Smith"
+      position = "Web Developer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person2.jpg"
+      alt = "Person2"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-github", "#"]
+      ]
+
+    [[params.about.item]]
+      name = "Larry Ben"
+      position = "Web Designer"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]
+
+  # Counters section
+  [params.counters]
+    enable = false
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = true
+    map = true
+    title = "Contact et réservation"
+    description = "Vous pouvez me contacter par email ou téléphone pour toute question et réservation"
+
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "Cénac et Saint Julien"],
+        ["icon-phone", "08 36 65 65 65"],
+        ["icon-envelope", "blabla@gmail.com"],
+      ]
+
+    name = "Nom"
+    email = "Email"
+    phone = "Téléphone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = false
+    copyright = ''
