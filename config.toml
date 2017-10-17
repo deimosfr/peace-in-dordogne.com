@@ -41,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Gite à louer en Dordogne"
-    subtitle = 'Le Gîte est situé dans le Périgord noir, à 1 km de Domme classé dans les plus beaux villages de France, et à 20 minutes de Sarlat la Caneda. Piscine, jardin, barbecue, parking privé sont à votre disposition. Trois chambres; deux avec lits double, un avec 2 lits simple. Salon/cuisine, bien equipé.'
+    subtitle = 'Le Gîte est situé dans le Périgord noir, à 1 km de Domme classé dans les plus beaux villages de France, et à 20 minutes de Sarlat la Caneda. Piscine, jardin, barbecue, parking privé sont à votre disposition. Trois chambres dont une avec deux avec lits double et une avec 2 lits simple. Séjour avec cuisine tout équipée, bien equipé.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
