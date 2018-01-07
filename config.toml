@@ -40,49 +40,51 @@ theme = "hugo-elate-theme"
 
   # Hero section
   [params.hero]
-    title = "Gite à louer en Dordogne"
-    subtitle = 'Le Gîte est situé dans le Périgord noir, à 1 km de Domme classé dans les plus beaux villages de France, et à 20 minutes de Sarlat la Caneda. Piscine, jardin, barbecue, parking privé sont à votre disposition. Trois chambres dont une avec deux avec lits double et une avec 2 lits simple. Séjour avec cuisine tout équipée, bien equipé.'
+    title = "Vacances relaxantes en Dordogne"
+    subtitle = 'Découvrez un havre de paix en Dordogne (Aquitaine). 
+Le Gîte est situé à 2 km du centre de Domme, classé dans les plus beaux villages de France. Plongez dans une région remplie d’histoire, en visitant Sarlat-la-Caneda, ville historique du XIIème siècle, ainsi que les fameuses grottes de Lascaux (40 min.). 
+Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Gîte"
+    description = "Charmant Gîte de 4 pièces, 3 chambres, séjour tout équipé avec cuisine, 2 salles d'eau. Piscine, barbecue et grand jardin."
     url = "#"
-    button = "Get In Touch"
+    button = "Je veux en savoir +"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Piscine"
+    description = "Grande piscine clôturée et sécurisée de 12mx5m, profondeur de 90 cm à 2m. Température allant de 18° au printemps jusqu'à 30° l'été."
     url = "#"
-    button = "Click Me"
+    button = "Je veux plonger"
     icon = "icon-wrench"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Massage"
+    description = "Relaxez-vous avec un massage shiatsu ou réflexologie."
     url = "#"
-    button = "Why us?"
+    button = "Je veux un massage"
     icon = "icon-rocket"
     img = "img_10.jpg"
 
   [params.intro.video]
     enable = true
-    title = "Regarder une video"
+    title = "Découvez la région en video"
     icon = "icon-play2"
-    url = "https://vimeo.com/channels/staffpicks/93951774"
+    url = "https://vimeo.com/102629489"
 
 
   # Work section
   [params.work]
     enable = true
     title = "Activitées"
-    description = "Un endroit idéal pour se relaxer et profiter de cette belle région"
+    description = "Un endroit idéal pour se relaxer et s'amuser dans cette belle région"
     footertext = "Mais également la visite des grottes, des châteaux, musées, gastronomie, vélos, cours de pilotage à l'aérodrome de Domme..."
 
     [[params.work.row]]
@@ -100,8 +102,8 @@ theme = "hugo-elate-theme"
     [[params.work.row]]
       img = "activ_massages.jpg"
       alt = "Massages"
-      title = "Massages et réflexologie shiatsu"
-      subtitle = "Vôtre hôte se charge de votre bien être"
+      title = "Massages shiatsu et réflexologie"
+      subtitle = "Vôtre hôte se charge de votre bien-être"
 
     [[params.work.row]]
       img = "activ_mongolfiere.jpg"
