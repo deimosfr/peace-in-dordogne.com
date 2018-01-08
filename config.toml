@@ -76,7 +76,7 @@ Détendez-vous dans un cadre zen grâce à la piscine, aux massages, le barbecue
 
   [params.intro.video]
     enable = true
-    title = "Découvez la Dordogne en video"
+    title = "Découvrez la Dordogne en video"
     icon = "icon-play2"
     url = "https://vimeo.com/102629489"
 
