@@ -41,9 +41,10 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Vacances relaxantes en Dordogne"
-    subtitle = 'Découvrez un havre de paix en Dordogne (Aquitaine). 
-Le Gîte est situé à 2 km du centre de Domme, classé dans les plus beaux villages de France. Plongez dans une région remplie d’histoire, en visitant Sarlat-la-Caneda, ville historique du XIIème siècle, ainsi que les fameuses grottes de Lascaux (40 min.). 
-Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
+    subtitle = 'Découvrez un havre de paix au coeur de la Dordogne. 
+
+Le Gîte est situé à 2 km du centre de Domme classé dans les plus beaux villages de France. Plongez dans une région remplie d’histoire, en visitant Sarlat-la-Caneda, ville historique du XIIème siècle, ainsi que les fameuses grottes de Lascaux. 
+Détendez-vous dans un cadre zen grâce à la piscine, aux massages, le barbecue et le grand jardin.'
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -51,7 +52,7 @@ Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
 
   [[params.intro.item]]
     title = "Gîte"
-    description = "Charmant Gîte de 4 pièces, 3 chambres, séjour tout équipé avec cuisine, 2 salles d'eau. Piscine, barbecue et grand jardin."
+    description = "Charmant Gîte de 4 pièces: 3 chambres, séjour tout équipé avec cuisine, 2 salles d'eau. Piscine, barbecue et grand jardin."
     url = "#"
     button = "Je veux en savoir +"
     icon = "icon-bulb"
@@ -59,7 +60,7 @@ Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
 
   [[params.intro.item]]
     title = "Piscine"
-    description = "Grande piscine clôturée et sécurisée de 12mx5m, profondeur de 90 cm à 2m. Température allant de 18° au printemps jusqu'à 30° l'été."
+    description = "Grande piscine clôturée et sécurisée de 12m x 5m, profondeur de 90cm à 2m. Température allant de 18° jusqu'à 30° l'été."
     url = "#"
     button = "Je veux plonger"
     icon = "icon-wrench"
@@ -67,7 +68,7 @@ Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
 
   [[params.intro.item]]
     title = "Massage"
-    description = "Relaxez-vous avec un massage shiatsu ou réflexologie."
+    description = "Relaxez-vous avec un massage shiatsu et/ou réflexologie."
     url = "#"
     button = "Je veux un massage"
     icon = "icon-rocket"
@@ -75,7 +76,7 @@ Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
 
   [params.intro.video]
     enable = true
-    title = "Découvez la région en video"
+    title = "Découvez la Dordogne en video"
     icon = "icon-play2"
     url = "https://vimeo.com/102629489"
 
@@ -109,19 +110,19 @@ Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
       img = "activ_mongolfiere.jpg"
       alt = "Mongolfière"
       title = "Mongolfière"
-      subtitle = ""
+      subtitle = "Faites du Canoë sur la Dordogne à 5 min en voiture"
 
     [[params.work.row]]
       img = "activ_randonnees.jpg"
       alt = "Randonnées"
       title = "Randonnées"
-      subtitle = ""
+      subtitle = "Profitez de la nature et les villages historiques"
 
     [[params.work.row]]
       img = "activ_golf.jpg"
       alt = "Golf"
       title = "Golf"
-      subtitle = ""
+      subtitle = "Faites votre plus beau swing à 10 min en voiture"
 
   # Testimonials section
   [params.testimonials]
@@ -147,29 +148,36 @@ Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
       img = "feedback_antoine.jpg"
       alt = "Person3"
 
-  # Services section
+  # Le Gîte en détail
   [params.services]
     enable = true
     title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Le Gîte se trouve dans endroit très calme, boisé, sur une colline. 6 personnes peuvent être accueillies. Vous disposez de 3 chambres: 2 chambres avec lits doubles et 1 chambre simple, avec 2 lits simples. 1 séjour avec cuisine toute équipée:  cuisinière, four, lave-vaisselle, réfrigérateur, machine à laver. 2 salles d'eau, un WC séparé. 
+    Une connexion WIFI et la TV anglais et français pourront vous divertir.
+ 
+Vous pourrez déguster de bonnes grillades avec le Barbecue.
+
+Jouissez du grand jardin, avec balançoires. Les animaux sont acceptés, cependant le terrain n'est pas clôturé.
+
+Enfin, vous pourrez garer votre voiture dans le jardin"
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Grande Piscine"
+      description = "La piscine est privative, vous pourrez donc vous vous baignez et bronzer en toute tranquilité"
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Barbecue"
+      description = "Le Barbecue est également privatif. Vous pourrez déguster vos grillades sur la terrasse"
       icon = "icon-layers2"
     [[params.services.item]]
-      title = "Photo &amp; Video"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Grand terrain de 1000 m2"
+      description = "Grand jardin fleuri avec balançoire"
       icon = "icon-video2"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "Gîte très bien situé"
+      description = "Vous vous trouverez bien situé pour visiter les nombreux Châteaux et faire toutes les activitées de la région."
       icon = "icon-monitor"
 
   # About section
@@ -261,16 +269,16 @@ Profitez du cadre zen avec massages, piscine, barbecue, et grand jardin.'
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Cénac et Saint Julien"],
-        ["icon-phone", "08 36 65 65 65"],
-        ["icon-envelope", "blabla@gmail.com"],
+        ["icon-home", "Domme"],
+        ["icon-phone", "06 22 80 37 89"],
+        ["icon-envelope", "rosemary.warder@gmail.com"],
       ]
 
     name = "Nom"
     email = "Email"
     phone = "Téléphone"
     message = "Message"
-    button = "Send message"
+    button = "Envoyer mon message"
 
   # Footer section
   [params.footer]
