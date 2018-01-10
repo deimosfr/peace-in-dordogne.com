@@ -41,10 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Vacances relaxantes en Dordogne"
-    subtitle = 'Découvrez un havre de paix au coeur de la Dordogne. 
-
-Le Gîte est situé à 2 km du centre de Domme classé dans les plus beaux villages de France. Plongez dans une région remplie d’histoire, en visitant Sarlat-la-Caneda, ville historique du XIIème siècle, ainsi que les fameuses grottes de Lascaux. 
-Détendez-vous dans un cadre zen grâce à la piscine, aux massages, le barbecue et le grand jardin.'
+    subtitle = "Découvrez un havre de paix au coeur de la Dordogne. Le Gîte est situé à 2 km du centre de Domme classé dans les plus beaux villages de France. Plongez dans une région remplie d’histoire, en visitant Sarlat-la-Caneda, ville historique du XIIème siècle, ainsi que les fameuses grottes de Lascaux.  Détendez-vous dans un cadre zen grâce à la piscine, aux massages, le barbecue et le grand jardin."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
@@ -152,14 +149,7 @@ Détendez-vous dans un cadre zen grâce à la piscine, aux massages, le barbecue
   [params.services]
     enable = true
     title = "Services"
-    description = "Le Gîte se trouve dans endroit très calme, boisé, sur une colline. 6 personnes peuvent être accueillies. Vous disposez de 3 chambres: 2 chambres avec lits doubles et 1 chambre simple, avec 2 lits simples. 1 séjour avec cuisine toute équipée:  cuisinière, four, lave-vaisselle, réfrigérateur, machine à laver. 2 salles d'eau, un WC séparé. 
-    Une connexion WIFI et la TV anglais et français pourront vous divertir.
- 
-Vous pourrez déguster de bonnes grillades avec le Barbecue.
-
-Jouissez du grand jardin, avec balançoires. Les animaux sont acceptés, cependant le terrain n'est pas clôturé.
-
-Enfin, vous pourrez garer votre voiture dans le jardin"
+    description = "Le Gîte se trouve dans endroit très calme, boisé, sur une colline. 6 personnes peuvent être accueillies. Vous disposez de 3 chambres: 2 chambres avec lits doubles et 1 chambre simple, avec 2 lits simples. 1 séjour avec cuisine toute équipée:  cuisinière, four, lave-vaisselle, réfrigérateur, machine à laver. 2 salles d'eau, un WC séparé.  Une connexion WIFI et la TV anglais et français pourront vous divertir. Vous pourrez déguster de bonnes grillades avec le Barbecue.  Jouissez du grand jardin, avec balançoires. Les animaux sont acceptés, cependant le terrain n'est pas clôturé. Enfin, vous pourrez garer votre voiture dans le jardin"
 
     [[params.services.item]]
       title = "Grande Piscine"
