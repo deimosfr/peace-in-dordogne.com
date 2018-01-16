@@ -41,7 +41,7 @@ theme = "hugo-elate-theme"
   # Hero section
   [params.hero]
     title = "Vacances relaxantes en Dordogne"
-    subtitle = "Découvrez un havre de paix au coeur de la Dordogne. Le Gîte est situé à 2 km du centre de Domme classé dans les plus beaux villages de France. Plongez dans une région remplie d’histoire, en visitant Sarlat-la-Caneda, ville historique du XIIème siècle, ainsi que les fameuses grottes de Lascaux.  Détendez-vous dans un cadre zen grâce à la piscine, aux massages, le barbecue et le grand jardin."
+    subtitle = "Découvrez un havre de paix au coeur de la Dordogne. <br /> Le Gîte est situé à 2 km du centre de Domme classé dans les plus beaux villages de France. Plongez dans une région remplie d’histoire, en visitant Sarlat-la-Caneda, ville historique du XIIème siècle, ainsi que les fameuses grottes de Lascaux. <br /> Détendez-vous dans un cadre zen grâce à la piscine, aux massages, le barbecue et le grand jardin."
 
   # Intro section
   # Available icons: http://simplelineicons.com/
