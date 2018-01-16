@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Massage"
-    description = "Relaxez-vous avec un massage shiatsu et/ou réflexologie."
+    description = "Relaxez-vous ou soulagez vos douleurs avec un massage shiatsu et/ou réflexologie."
     url = "#"
     button = "Je veux un massage"
     icon = "icon-rocket"
@@ -107,7 +107,7 @@ theme = "hugo-elate-theme"
       img = "activ_mongolfiere.jpg"
       alt = "Mongolfière"
       title = "Mongolfière"
-      subtitle = "Faites du Canoë sur la Dordogne à 5 min en voiture"
+      subtitle = "Faites du Canoë sur la Dordogne à 5 min"
 
     [[params.work.row]]
       img = "activ_randonnees.jpg"
@@ -148,8 +148,8 @@ theme = "hugo-elate-theme"
   # Le Gîte en détail
   [params.services]
     enable = true
-    title = "Services"
-    description = "Le Gîte se trouve dans endroit très calme, boisé, sur une colline. 6 personnes peuvent être accueillies. Vous disposez de 3 chambres: 2 chambres avec lits doubles et 1 chambre simple, avec 2 lits simples. 1 séjour avec cuisine toute équipée:  cuisinière, four, lave-vaisselle, réfrigérateur, machine à laver. 2 salles d'eau, un WC séparé.  Une connexion WIFI et la TV anglais et français pourront vous divertir. Vous pourrez déguster de bonnes grillades avec le Barbecue.  Jouissez du grand jardin, avec balançoires. Les animaux sont acceptés, cependant le terrain n'est pas clôturé. Enfin, vous pourrez garer votre voiture dans le jardin"
+    title = "Le Gîte en détails"
+    description = "Le Gîte se trouve dans endroit très calme, boisé, sur une colline. <br /> 6 personnes peuvent être accueillies. Vous disposez de 3 chambres: 2 chambres avec lits doubles et 1 chambre simple, avec 2 lits simples. 1 séjour avec cuisine toute équipée: cuisinière, four, lave-vaisselle, réfrigérateur, machine à laver. 2 salles d'eau, et un WC séparé. <br /> Une connexion WIFI et la TV en anglais et en français pourront vous divertir. <br /> Vous pourrez déguster de bonnes grillades avec le Barbecue. Profitez du grand jardin, avec balançoires. <br /> Les animaux sont acceptés, cependant le terrain n'est pas clôturé. Enfin, vous pourrez garer votre voiture dans le jardin"
 
     [[params.services.item]]
       title = "Grande Piscine"
