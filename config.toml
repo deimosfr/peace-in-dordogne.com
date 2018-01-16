@@ -162,7 +162,7 @@ theme = "hugo-elate-theme"
       icon = "icon-layers2"
     [[params.services.item]]
       title = "Grand terrain de 1000 m2"
-      description = "Grand jardin fleuri avec balançoire"
+      description = "Grand jardin fleuri avec balançoire. Idéal pour se ressourcer et se trouver au plus près de la nature."
       icon = "icon-video2"
 
       [[params.services.item]]
