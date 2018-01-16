@@ -49,7 +49,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Gîte"
-    description = "Charmant Gîte de 4 pièces: 3 chambres, séjour tout équipé avec cuisine, 2 salles d'eau. Piscine, barbecue et grand jardin."
+    description = "Charmant Gîte de 4 pièces: 3 chambres, séjour tout équipé avec cuisine, 2 salles d'eau. <br /> Piscine, barbecue et grand jardin."
     url = "#"
     button = "Je veux en savoir +"
     icon = "icon-bulb"
@@ -57,7 +57,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Piscine"
-    description = "Grande piscine clôturée et sécurisée de 12m x 5m, profondeur de 90cm à 2m. Température allant de 18° jusqu'à 30° l'été."
+    description = "Grande piscine clôturée et sécurisée de 12 m x 5 m, profondeur de 90 cm à 2 m. <br /> Température allant de 18° jusqu'à 30° l'été."
     url = "#"
     button = "Je veux plonger"
     icon = "icon-wrench"
@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Massage"
-    description = "Relaxez-vous ou soulagez vos douleurs avec un massage shiatsu et/ou réflexologie."
+    description = "Relaxez-vous ou soulagez vos douleurs grâce à Rosemary diplômée en shiatsu et réflexologie."
     url = "#"
     button = "Je veux un massage"
     icon = "icon-rocket"
