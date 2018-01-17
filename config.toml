@@ -260,8 +260,8 @@ theme = "hugo-elate-theme"
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Domme"],
-        ["icon-phone", "06 22 80 37 89"],
-        ["icon-envelope", "rosemary.warder@gmail.com"],
+        ["icon-phone", ""],
+        ["icon-envelope", ""],
       ]
 
     name = "Nom"
