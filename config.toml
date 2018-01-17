@@ -49,7 +49,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Gîte"
-    description = "Charmant Gîte de 4 pièces: 3 chambres, séjour tout équipé avec cuisine, 2 salles d'eau. <br /> Piscine, barbecue et grand jardin."
+    description = "Charmant Gîte de 4 pièces: 3 chambres, séjour tout équipé avec cuisine, 2 salles d'eau. Piscine, barbecue et grand jardin."
     url = "#"
     button = "Je veux en savoir +"
     icon = "icon-bulb"
@@ -57,7 +57,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Piscine"
-    description = "Grande piscine clôturée et sécurisée de 12 m x 5 m, profondeur de 90 cm à 2 m. <br /> Température allant de 18° jusqu'à 30° l'été."
+    description = "Grande piscine clôturée et sécurisée de 12m x 5m, profondeur de 90 cm à 2m. Température allant de 18° jusqu'à 30° l'été."
     url = "#"
     button = "Je veux plonger"
     icon = "icon-wrench"
@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Massage"
-    description = "Relaxez-vous ou soulagez vos douleurs grâce à Rosemary diplômée en shiatsu et réflexologie."
+    description = "Relaxez-vous ou soulagez vos douleurs grâce à Rosemary diplômée en shiatsu et réflexologie. Les bienfaits sont immédiats."
     url = "#"
     button = "Je veux un massage"
     icon = "icon-rocket"
@@ -89,37 +89,37 @@ theme = "hugo-elate-theme"
       img = "activ_canoe.jpg"
       alt = "Canoës"
       title = "Canoës"
-      subtitle = ""
+      subtitle = "Faites du Canoë sur la Dordogne à 5 min"
 
     [[params.work.row]]
       img = "activ_equitation.jpg"
       alt = "Equitation"
       title = "Equitation"
-      subtitle = ""
+      subtitle = "Trottez dans la nature au milieu de la fôret"
 
     [[params.work.row]]
       img = "activ_massages.jpg"
       alt = "Massages"
       title = "Massages shiatsu et réflexologie"
-      subtitle = "Vôtre hôte se charge de votre bien-être"
+      subtitle = "Vôtre hôte est aux petits soins pour vous"
 
     [[params.work.row]]
       img = "activ_mongolfiere.jpg"
       alt = "Mongolfière"
       title = "Mongolfière"
-      subtitle = "Faites du Canoë sur la Dordogne à 5 min"
+      subtitle = "Envolez-vous et admirez la Dordogne vue du ciel"
 
     [[params.work.row]]
       img = "activ_randonnees.jpg"
       alt = "Randonnées"
       title = "Randonnées"
-      subtitle = "Profitez de la nature et les villages historiques"
+      subtitle = "Profitez de la nature et des villages historiques"
 
     [[params.work.row]]
       img = "activ_golf.jpg"
       alt = "Golf"
       title = "Golf"
-      subtitle = "Faites votre plus beau swing à 10 min en voiture"
+      subtitle = "Faites votre plus beau swing à 10 min"
 
   # Testimonials section
   [params.testimonials]
@@ -149,7 +149,7 @@ theme = "hugo-elate-theme"
   [params.services]
     enable = true
     title = "Le Gîte en détails"
-    description = "Le Gîte se trouve dans endroit très calme, boisé, sur une colline. <br /> 6 personnes peuvent être accueillies. Vous disposez de 3 chambres: 2 chambres avec lits doubles et 1 chambre simple, avec 2 lits simples. 1 séjour avec cuisine toute équipée: cuisinière, four, lave-vaisselle, réfrigérateur, machine à laver. 2 salles d'eau, et un WC séparé. <br /> Une connexion WIFI et la TV en anglais et en français pourront vous divertir. <br /> Vous pourrez déguster de bonnes grillades avec le Barbecue. Profitez du grand jardin, avec balançoires. <br /> Les animaux sont acceptés, cependant le terrain n'est pas clôturé. Enfin, vous pourrez garer votre voiture dans le jardin"
+    description = "Le Gîte se trouve dans endroit très calme, boisé, sur une colline. <br /> 6 personnes peuvent être accueillies. Vous disposez de 3 chambres: 2 chambres avec lits doubles et 1 chambre simple, avec 2 lits simples. 1 séjour avec cuisine toute équipée: cuisinière, four, lave-vaisselle, réfrigérateur, machine à laver. 2 salles d'eau, et un WC séparé. <br /> Une connexion WIFI et la TV en anglais et en français pourront vous divertir. <br /> Vous pourrez déguster de bonnes grillades sur le barbecue. Profitez du grand jardin, avec balançoires. <br /> Les animaux sont acceptés, cependant le terrain n'est pas clôturé."
 
     [[params.services.item]]
       title = "Grande Piscine"
@@ -268,7 +268,7 @@ theme = "hugo-elate-theme"
     email = "Email"
     phone = "Téléphone"
     message = "Message"
-    button = "Envoyer mon message"
+    button = "J'envoie mon message"
 
   # Footer section
   [params.footer]
