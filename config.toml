@@ -107,7 +107,7 @@ theme = "hugo-elate-theme"
       img = "activ_mongolfiere.jpg"
       alt = "Mongolfière"
       title = "Mongolfière"
-      subtitle = "Envolez-vous et admirez la Dordogne vue du ciel"
+      subtitle = "Admirez la Dordogne vue du ciel"
 
     [[params.work.row]]
       img = "activ_randonnees.jpg"
