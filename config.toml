@@ -167,7 +167,7 @@ theme = "hugo-elate-theme"
 
       [[params.services.item]]
       title = "Gîte très bien situé"
-      description = "Vous vous trouverez bien situé pour visiter les nombreux Châteaux et faire toutes les activitées de la région."
+      description = "Vous serez très bien situés pour visiter les nombreux Châteaux et faire toutes les activitées de la région."
       icon = "icon-monitor"
 
   # About section
