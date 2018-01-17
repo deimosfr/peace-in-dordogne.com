@@ -19,7 +19,7 @@ theme = "hugo-elate-theme"
     home = "Accueil"
     work = "Activitées"
     testimonials = "Témoignages"
-    services = "Services"
+    services = "Gîte"
     about = "About"
     contact = "Contact"
 
