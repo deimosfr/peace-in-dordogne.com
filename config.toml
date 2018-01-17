@@ -145,7 +145,7 @@ theme = "hugo-elate-theme"
       img = "feedback_antoine.jpg"
       alt = "Person3"
 
-  # Le Gîte en détail
+  # Le Gîte en détails
   [params.services]
     enable = true
     title = "Le Gîte en détails"
@@ -162,12 +162,12 @@ theme = "hugo-elate-theme"
       icon = "icon-layers2"
     [[params.services.item]]
       title = "Grand terrain de 1000 m2"
-      description = "Grand jardin fleuri avec balançoire. Idéal pour se ressourcer et se trouver au plus près de la nature."
+      description = "Grand jardin fleuri avec balançoire. Idéal pour se ressourcer et se trouver au plus près de la nature"
       icon = "icon-video2"
 
       [[params.services.item]]
       title = "Gîte très bien situé"
-      description = "Vous serez très bien situés pour visiter les nombreux Châteaux et faire toutes les activitées de la région."
+      description = "Vous serez très bien situés pour visiter les nombreux Châteaux et faire toutes les activitées de la région"
       icon = "icon-monitor"
 
   # About section
