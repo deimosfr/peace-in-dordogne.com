@@ -125,7 +125,7 @@ theme = "hugo-elate-theme"
   [params.testimonials]
     enable = true
     title = "Témoignages"
-    description = "Après un séjour chez votre hôte, <a href='https://www.airbnb.fr/rooms/3706430#reviews'>voici leurs impressions</a>"
+    description = "Après leur séjour, <a href='https://www.airbnb.fr/rooms/3706430#reviews'>voici ce qu'ils en ont pensé</a>"
 
     [[params.testimonials.item]]
       quote = "&ldquo;L'habitation de Rosemary est très bien située tout près de la commune de Domme, on peut y aller à pied en moins de 1/2 heures. Nous avons apprécié sa piscine qui est très bien entretenu, nous avons profité de la terrasse à tous les repas. Je conseille les massages de Rosemary, un plus ! Rosemary à tout fait pour que nous passions un très bon séjour, merci&rdquo;"
