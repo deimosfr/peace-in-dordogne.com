@@ -259,8 +259,7 @@ theme = "hugo-elate-theme"
 
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Domme"],
-  
+        ["icon-home", "La Vergnolle, 24250 Domme"],
       ]
 
     name = "Nom"
@@ -271,5 +270,9 @@ theme = "hugo-elate-theme"
 
   # Footer section
   [params.footer]
-    enable = false
+    enable = true
     copyright = ''
+    links = [
+      ["icon-twitter", "https://twitter.com/intent/tweet?text=Vivez%20un%20incroyable%20séjour%20au%20Gite%20de%20Rosemary%20http://www.peace-in-dorgogne.com"],
+      ["icon-facebook", "#facebook"],
+    ]
