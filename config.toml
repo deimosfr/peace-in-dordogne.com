@@ -52,7 +52,7 @@ theme = "hugo-elate-theme"
     description = "Charmant Gîte de 4 pièces: 3 chambres, séjour tout équipé avec cuisine, 2 salles d'eau. Piscine, barbecue et grand jardin."
     url = "#"
     button = "Je veux en savoir +"
-    icon = "icon-bulb"
+    icon = "icon-home"
     img = "img_7.jpg"
 
   [[params.intro.item]]
@@ -60,7 +60,7 @@ theme = "hugo-elate-theme"
     description = "Grande piscine clôturée et sécurisée de 12m x 5m, profondeur de 90 cm à 2m. Température allant de 18° jusqu'à 30° l'été."
     url = "#"
     button = "Je veux plonger"
-    icon = "icon-wrench"
+    icon = "icon-support"
     img = "img_8.jpg"
 
   [[params.intro.item]]
@@ -68,7 +68,7 @@ theme = "hugo-elate-theme"
     description = "Relaxez-vous ou soulagez vos douleurs grâce à Rosemary diplômée en shiatsu et réflexologie. Les bienfaits sont immédiats."
     url = "#"
     button = "Je veux un massage"
-    icon = "icon-rocket"
+    icon = "icon-cup"
     img = "img_10.jpg"
 
   [params.intro.video]
@@ -154,21 +154,21 @@ theme = "hugo-elate-theme"
     [[params.services.item]]
       title = "Grande Piscine"
       description = "La piscine est privative, vous pourrez donc vous vous baignez et bronzer en toute tranquilité"
-      icon = "icon-anchor"
+      icon = "icon-support"
 
     [[params.services.item]]
       title = "Barbecue"
       description = "Le Barbecue est également privatif. Vous pourrez déguster vos grillades sur la terrasse"
-      icon = "icon-layers2"
+      icon = "icon-fire"
     [[params.services.item]]
       title = "Grand terrain de 1000 m2"
       description = "Grand jardin fleuri avec balançoire. Idéal pour se ressourcer et se trouver au plus près de la nature"
-      icon = "icon-video2"
+      icon = "icon-picture"
 
       [[params.services.item]]
       title = "Gîte très bien situé"
       description = "Vous serez très bien situés pour visiter les nombreux Châteaux et faire toutes les activitées de la région"
-      icon = "icon-monitor"
+      icon = "icon-directions"
 
   # About section
   [params.about]
@@ -250,10 +250,30 @@ theme = "hugo-elate-theme"
       interval = 50
       speed = 5000
 
+  [params.pricing]
+    enable = true
+    title = "Tarifs et disponibilités"
+    description = "Voici les tarifs par mois"
+    details = [
+        ["Avril", "525 €"],
+        ["Mai", "600 €"],
+        ["Juin", "600 €"],
+        ["Juillet", "700 €"],
+        ["Août", "800 €"],
+        ["Septembre", "600 €"],
+        ["Octobre", "500 €"],
+      ]
+
+  [params.calendar]
+    enable = true
+    title = "Calendrier des disponibilités"
+    description = "Vous trouverez ici les informations sur les réservations déjà en cours"
+
   # Contact section
   [params.contact]
     enable = true
     map = true
+    form = true
     title = "Contact et réservation"
     description = "Vous pouvez me contacter par email ou téléphone pour toute question et réservation"
 
@@ -271,8 +291,8 @@ theme = "hugo-elate-theme"
   # Footer section
   [params.footer]
     enable = true
-    copyright = ''
+    copyright = 'Partagez ce site sur les réseaux sociaux'
     links = [
+      ["icon-facebook", "https://www.facebook.com/sharer/sharer.php?u=www.peace-in-dorgogne.com"],
       ["icon-twitter", "https://twitter.com/intent/tweet?text=Vivez%20un%20incroyable%20séjour%20au%20Gite%20de%20Rosemary%20http://www.peace-in-dorgogne.com"],
-      ["icon-facebook", "#facebook"],
     ]
