@@ -252,7 +252,7 @@ theme = "hugo-elate-theme"
 
   [params.pricing]
     enable = true
-    title = "Tarifs et disponibilités"
+    title = "Tarifs"
     description = "Voici les tarifs par mois"
     details = [
         ["Avril", "525 €"],
