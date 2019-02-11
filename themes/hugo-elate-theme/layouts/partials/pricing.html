@@ -27,6 +27,22 @@
             {{ end }}
           </tbody>
         </table>
-			</div>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Massages</th>
+              <th>Prix</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range .Site.Params.pricing.activities }}
+            <tr>
+              <td>{{ with index . 0}}{{ . }}{{ end }}</td>
+              <td>{{ with index . 1}}{{ . }}{{ end }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
 		</div>
 	</section>
