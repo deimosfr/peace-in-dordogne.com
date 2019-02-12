@@ -2,47 +2,31 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-9 section-heading text-center">
+                    <div id='pricing'></div><br />
           <h2 class="to-animate">{{ with .Site.Params.pricing.title }}{{ . | markdownify }}{{ end }}</h2>
-					<div class="row">
 						<div class="col-md-8 subtext to-animate">
 							<h3>{{ with .Site.Params.pricing.description }}{{ . | markdownify }}{{ end }}</h3>
 						</div>
-					</div>
 				</div>
 			</div>
 			<div class="row">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Mois</th>
-              <th>Prix à la semaine</th>
-            </tr>
-          </thead>
-          <tbody>
-            {{ range .Site.Params.pricing.details }}
-            <tr>
-              <td>{{ with index . 0}}{{ . }}{{ end }}</td>
-              <td>{{ with index . 1}}{{ . }}{{ end }}</td>
-            </tr>
+            {{ range .Site.Params.pricing.item }}
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>{{ .column1 }}</th>
+                  <th>{{ .column2 }}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {{ range .content }}
+                <tr>
+                  <td>{{ with index . 0}}{{ . }}{{ end }}</td>
+                  <td>{{ with index . 1}}{{ . }}{{ end }}</td>
+                </tr>
+                {{ end }}
+              </tbody>
+            </table>
             {{ end }}
-          </tbody>
-        </table>
-
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Massages</th>
-              <th>Prix</th>
-            </tr>
-          </thead>
-          <tbody>
-            {{ range .Site.Params.pricing.activities }}
-            <tr>
-              <td>{{ with index . 0}}{{ . }}{{ end }}</td>
-              <td>{{ with index . 1}}{{ . }}{{ end }}</td>
-            </tr>
-            {{ end }}
-          </tbody>
-        </table>
 		</div>
 	</section>

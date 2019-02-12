@@ -217,7 +217,9 @@ table {
   border-spacing: 0;
 }
 
-td,
+td {
+width: 50%;
+}
 th {
   padding: 0;
 }

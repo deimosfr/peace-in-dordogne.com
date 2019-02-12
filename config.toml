@@ -33,10 +33,10 @@ theme = "hugo-elate-theme"
     #  weight = 10
 
     # postpended links
-    [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "English version"
-      weight = 10
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "English version"
+    #  weight = 10
 
   # Hero section
   [params.hero]
@@ -252,9 +252,13 @@ theme = "hugo-elate-theme"
 
   [params.pricing]
     enable = true
-    title = "<div id='tarifs'></div><br />Tarifs"
+    title = "Tarifs"
     description = "Voici les tarifs par mois et par activités"
-    details = [
+
+    [[params.pricing.item]]
+      column1 = "Mois"
+      column2 = "Prix à la semaine"
+      content = [
         ["Avril", "525 €"],
         ["Mai", "600 €"],
         ["Juin", "600 €"],
@@ -263,35 +267,46 @@ theme = "hugo-elate-theme"
         ["Septembre", "600 €"],
         ["Octobre", "500 €"],
       ]
-    activities = [
+
+    [[params.pricing.item]]
+      column1 = "Massages"
+      column2 = "Prix"
+      content = [
         ["Shiatsu et réflexologie (30 min)", "35 €"],
-        ["Shiatsu et réflexologie (1h)", "45 €"],
+        ["Shiatsu et réflexologie (1h)", "50 €"],
       ]
 
   [params.calendar]
     enable = true
     title = "Calendrier des disponibilités"
     description = "Vous trouverez ici les informations sur les réservations déjà en cours"
+    url = "https://calendar.google.com/calendar/embed?src=rosemary.warder%40gmail.com&ctz=Europe%2FParis&showTitle=0"
 
   # Contact section
   [params.contact]
     enable = true
-    map = true
-    form = true
     title = "Contact et réservation"
-    description = "Vous pouvez me contacter par email ou téléphone pour toute question et réservation"
+    description = "Vous pouvez me contacter pour toute question ou réservation"
+
+    # Google Form for information
+    GFormEnable = true
+    GFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSdl5vUq92age3ErZBeQUGOLOpVvrfTKf5GcI-ZLJyxz8VAW-g/viewform?embedded=true"
+    GFormWidth = "480"
+    GFormHeight = "983"
+
+    # Reservation button
+    buttonName = "Réservation en ligne"
+    buttonUrl = "https://goo.gl/forms/p3j6jwIOGsSOkZpI3"
+
+    # Google Maps
+    map = true
+    mapUrl = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13759.50720509555!2d1.219113269715227!3d44.790213950463794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDTCsDQ3JzI0LjgiTiAxwrAxMyc0MC4zIkU!5e1!3m2!1sfr!2sfr!4v1549920527165"
 
     # Available icons: http://simplelineicons.com/
     details = [
         ["icon-home", "Route de la Vergnolle, 24250 Domme"],
-        ["fas fa-map-marker-alt", "<a href='https://goo.gl/maps/Po8P2wnUbL22' target='_blank'>44°47'24.8\"N 1°13'40.3\"E<br />44.790213, 1.227868</a>"],
+        ["icon-location-pin", "<a href='https://goo.gl/maps/Po8P2wnUbL22' target='_blank'>44°47'24.8\"N 1°13'40.3\"E<br />44.790213, 1.227868</a>"],
       ]
-
-    name = "Nom"
-    email = "Email"
-    phone = "Téléphone"
-    message = "Message"
-    button = "J'envoie mon message"
 
   # Footer section
   [params.footer]
