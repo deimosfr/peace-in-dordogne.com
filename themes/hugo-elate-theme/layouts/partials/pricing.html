@@ -10,23 +10,26 @@
 				</div>
 			</div>
 			<div class="row">
-            {{ range .Site.Params.pricing.item }}
-            <table class="table">
-              <thead>
-                <tr>
-                  <th>{{ .column1 }}</th>
-                  <th>{{ .column2 }}</th>
-                </tr>
-              </thead>
-              <tbody>
-                {{ range .content }}
-                <tr>
-                  <td>{{ with index . 0}}{{ . }}{{ end }}</td>
-                  <td>{{ with index . 1}}{{ . }}{{ end }}</td>
-                </tr>
-                {{ end }}
-              </tbody>
-            </table>
+        {{ range .Site.Params.pricing.item }}
+        <table class="table">
+          <thead>
+            <tr>
+              <th>{{ .column1 }}</th>
+              <th>{{ .column2 }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range .content }}
+            <tr>
+              <td>{{ with index . 0}}{{ . }}{{ end }}</td>
+              <td>{{ with index . 1}}{{ . }}{{ end }}</td>
+            </tr>
             {{ end }}
+          </tbody>
+        </table>
+        {{ if .footer }}
+        {{ .footer }}
+        {{ end }}
+        {{ end }}
 		</div>
 	</section>
