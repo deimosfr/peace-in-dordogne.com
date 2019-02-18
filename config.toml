@@ -267,7 +267,7 @@ theme = "hugo-elate-theme"
         ["Septembre", "600 €"],
         ["Octobre", "500 €"],
       ]
-      +50 euros de frais de ménage
+      S'ajoute 50 euros de frais de ménage
 
     [[params.pricing.item]]
       column1 = "Massages"
