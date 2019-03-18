@@ -75,7 +75,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "<div id='video'></div><br />Découvrez la Dordogne en video"
     icon = "icon-play2"
-    url = "https://www.youtube.com/watch?v=2j9fk4kbBbs"
+    url = "https://www.youtube.com/watch?v=XHH84_wHxAE" 
 
 
   # Work section
