@@ -83,7 +83,7 @@ theme = "hugo-elate-theme"
     enable = true
     title = "Activitées"
     description = "Découvrez un havre de paix au coeur de la Dordogne. Le Gîte est situé à 2 km du centre de Domme classé dans les plus beaux villages de France. Plongez dans une région remplie d’histoire, en visitant Sarlat-la-Caneda, ville historique du XIIème siècle, ainsi que les fameuses grottes de Lascaux. Détendez-vous dans un cadre zen grâce à la piscine, aux massages, le barbecue et le grand jardin."
-    footertext = "Mais également la visite des grottes, des châteaux, musées, gastronomie, vélos, cours de pilotage à l'aérodrome de Domme..."
+    footertext = "Mais également la visite des grottes, des châteaux, musées, gastronomie, vélos (dépôt et collecte sur place), cours de pilotage à l'aérodrome de Domme..."
 
     [[params.work.row]]
       img = "activ_massages.jpg"
